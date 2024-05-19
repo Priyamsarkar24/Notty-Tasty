@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notty Tasty - Welcome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .restaurant-name {
+            animation: moveName 15s linear infinite;
+            white-space: nowrap;
+            display: inline-block;
+        }
+        @keyframes moveName {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        .hungry-icon {
+            display: block;
+            width: 150px;
+            height: 150px;
+            margin: 50px auto;
+            background-color: #ff9900;
+            color: white;
+            text-align: center;
+            line-height: 150px;
+            font-size: 20px;
+            border-radius: 50%;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .hungry-icon:hover {
+            background-color: #cc7a00;
+        }
+        nav {
+            background-color: #444;
+            padding: 15px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        footer ul li {
+            margin: 0 15px;
+        }
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="restaurant-name">Welcome to Notty Tasty - The Best Dining Experience</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="file:///C:/Users/Priyam%20Sarkar/OneDrive/Desktop/menu%20section.html">Are You Hungry?</a></li>
+            <li><a href="file:///C:/Users/Priyam%20Sarkar/OneDrive/Desktop/about.html">About Us</a></li>
+            <li><a href="file:///C:/Users/Priyam%20Sarkar/OneDrive/Desktop/Rate%20Us!.html">Rate Us</a></li>
+            <li><a href="file:///C:/Users/Priyam%20Sarkar/OneDrive/Desktop/Contact%20Us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <a href="file:///C:/Users/Priyam%20Sarkar/OneDrive/Desktop/menu%20section.html" class="hungry-icon">Are You Hungry?</a>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="file:///C:/Users/Priyam%20Sarkar/OneDrive/Desktop/about.html">About Us</a></li>
+            <li><a href="file:///C:/Users/Priyam%20Sarkar/OneDrive/Desktop/Rate%20Us!.html">Rate Us</a></li>
+            <li><a href="file:///C:/Users/Priyam%20Sarkar/OneDrive/Desktop/Contact%20Us.html">Contact Us</a></li>
+        </ul>
+        <p>Visit Us Again!</p>
+    </footer>
+
+    <!-- JavaScript for chat bot/AI can be added here -->
+</body>
+</html>
